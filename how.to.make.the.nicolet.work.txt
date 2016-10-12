@@ -1,0 +1,7 @@
+turn on the PC
+turn on the scope
+attach the GPIB cables
+try to read device #14
+it'll probably fail with a BUS ERR, so unplug the cable and plug it back in
+try reading it again.  If it fails again, it should be an OS ERR this time
+just keep trying to read, replugging and cable, and restarting the scope until it works.
